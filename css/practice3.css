@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    display: block;
+}
+
+.logo{
+    width: 145px;
+    height: 30px;
+}
+
+.nav{
+    display: block;
+    background-color: #333;
+    color: #fff;
+    height: 36px;
+    ul{
+        display: flex;
+        font-size: 1.4rem;
+        /* margin-left: 215px; */
+        list-style-type: none;
+        gap: 60px;
+        color: #fff;
+     }
+}
+
+.top_wrapper{
+    display: flex;
+    gap: 23.25px;
+    justify-content: center;
+}
+
+.top_content{
+    width: 373.75px;
+    p{
+        font-size: 1.4rem;
+    }
+    img{
+        width: 373.75px;
+        height: 210px;
+    }
+}
